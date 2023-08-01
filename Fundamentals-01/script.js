@@ -24,3 +24,37 @@ let population = '30000000'
 
 let data = `data===> ${country} is on the  ${continent}, it's a number population about ${population} people.`
 console.log(data)
+
+
+
+{/**-------Data Types -------*/ }
+
+let varNumber = 43;
+let varstring = 'Batman';
+let varBoolean = varNumber > 20 ?? varNumber;
+let varUndefine;
+
+
+//-1 Number
+console.log('varNumber==>', typeof varNumber);
+
+//-2 String
+console.log('varstring==>', typeof varstring);
+
+//-3 Boolean
+console.log('varBoolean==>', typeof varBoolean);
+
+//-4 Undefine
+console.log('varUndefine==>', typeof varUndefine);
+
+//dinamic typing
+varUndefine = null;
+console.log('varUndefine==>', typeof varUndefine);
+
+varUndefine = 'hi!';
+console.log('varUndefine==>', typeof varUndefine);
+
+
+
+{/**-------Let, Const and Var -------*/ }
+
