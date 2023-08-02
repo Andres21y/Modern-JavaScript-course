@@ -58,3 +58,60 @@ console.log('varUndefine==>', typeof varUndefine);
 
 {/**-------Let, Const and Var -------*/ }
 
+let age = 30;
+age = 31
+
+console.log('age==>', age);
+
+const agetwo = 30;
+//agetwo = 31 /**----------error, we can not assign the constants */
+
+let races;  /**---------declarations doesn't need to be initialized with let
+
+// const races;     /**---------declarations must be initialized with const*/
+
+var type = 'fast';
+
+type = 'electric'
+
+console.log('age==>', type);
+
+
+{/**-------Basic Operators -------*/ }
+
+const lastYear = 2027;
+
+/**minus */
+const currentAge = lastYear - 1990;
+
+/**plus */
+const plusAge = lastYear + 10;
+
+/**multiply */
+const mulYear = lastYear * 2;
+
+/**divide */
+const divYeare = 131 / 2;
+console.log(Math.floor(divYeare))
+
+
+/**remainder */
+const divYear = 131 % 2;
+divYear
+
+
+/** assignment operators */
+
+let x = 10 + 5;
+x += 10 /** x = ( x + 10 )*/
+x *= 10 /** x = ( x * 10 )*/
+x++ /**add in one */
+x-- /**minus in one */
+
+
+/** camparison operators */
+console.log(10 > 100);
+console.log(10  <  100);
+console.log(100 >= 100);
+console.log(10 <= 100);
+console.log(10 > 100);
