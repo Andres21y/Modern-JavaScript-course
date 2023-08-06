@@ -111,7 +111,37 @@ x-- /**minus in one */
 
 /** camparison operators */
 console.log(10 > 100);
-console.log(10  <  100);
+console.log(10 < 100);
 console.log(100 >= 100);
 console.log(10 <= 100);
 console.log(10 > 100);
+
+/** Precedence operators */
+
+
+let number = 1;
+let numberOne = 0;
+
+
+
+console.log(numberOne >= number)
+console.log(numberOne > number)
+
+console.log(numberOne === number)
+
+console.log(numberOne <= number)
+console.log(numberOne < number)
+
+
+let xe, ye;
+
+xe = ye = 25 - 10 - 5;
+
+console.log(xe, ye)
+
+let agefirst = 10;
+let ageSecond = 25
+
+const operation = (ageSecond + agefirst) / 2;
+
+operation
