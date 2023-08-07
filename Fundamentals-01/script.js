@@ -147,7 +147,18 @@ const operation = (ageSecond + agefirst) / 2;
 
 /** string and template literals*/
 
- const firstFruit ='coconut';
- const secondFruit ='pineapple';
+const firstFruit = 'coconut';
+const secondFruit = 'pineapple';
 
- console.log(`>I love ${firstFruit} and ${secondFruit} fruits`);
+console.log(`>I love ${firstFruit} and ${secondFruit} fruits`);
+
+/** taking decisions statements if, else */
+
+const wAge = 32;
+const isOld = wAge >= 18;
+
+if (isOld) {
+    console.log('yes, is older');
+} else {
+    console.log('not older');
+}
