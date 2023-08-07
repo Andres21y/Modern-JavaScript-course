@@ -144,4 +144,10 @@ let ageSecond = 25
 
 const operation = (ageSecond + agefirst) / 2;
 
-operation
+
+/** string and template literals*/
+
+ const firstFruit ='coconut';
+ const secondFruit ='pineapple';
+
+ console.log(`>I love ${firstFruit} and ${secondFruit} fruits`);
