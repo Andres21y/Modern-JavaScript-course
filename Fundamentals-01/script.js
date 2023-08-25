@@ -110,11 +110,11 @@ x-- /**minus in one */
 
 
 /** camparison operators */
-console.log(10 > 100);
-console.log(10 < 100);
-console.log(100 >= 100);
-console.log(10 <= 100);
-console.log(10 > 100);
+// console.log(10 > 100);
+// console.log(10 < 100);
+// console.log(100 >= 100);
+// console.log(10 <= 100);
+// console.log(10 > 100);
 
 /** Precedence operators */
 
@@ -124,13 +124,13 @@ let numberOne = 0;
 
 
 
-console.log(numberOne >= number)
-console.log(numberOne > number)
+// console.log(numberOne >= number)
+// console.log(numberOne > number)
 
-console.log(numberOne === number)
+// console.log(numberOne === number)
 
-console.log(numberOne <= number)
-console.log(numberOne < number)
+// console.log(numberOne <= number)
+// console.log(numberOne < number)
 
 
 let xe, ye;
@@ -154,11 +154,35 @@ console.log(`>I love ${firstFruit} and ${secondFruit} fruits`);
 
 /** taking decisions statements if, else */
 
-const wAge = 32;
-const isOld = wAge >= 18;
+// const newAge = 32;
+// const isOld = newAge >= 18;
 
-if (isOld) {
-    console.log('yes, is older');
-} else {
-    console.log('not older');
-}
+// if (isOld) {
+//     console.log('yes, is older');
+// } else {
+//     console.log('not older');
+// }
+
+
+
+/** Type conversion and coercion */
+
+// const inYear = '1991';
+// console.log(inYear)
+// console.log(inYear + 9)
+// console.log(typeof inYear)
+// console.log(Number(inYear) + 9)
+
+// console.log('pinocho')
+// console.log(Number('pinocho'))
+// console.log(typeof NaN)
+
+// const _number = String(10)
+// console.log(typeof (_number))
+
+
+//------------------coercion-------------------------//
+const agePlus = 'I am ' + 32 + 'years old'; {/** return string and type string */ }
+const ageMinus = '20' - 10 - '5'; {/** return 5 and type number */ }
+const ageMulty = '5' * '2'; {/** return  10 and type number */ }
+const ageDiv = 20 / '2'; {/** return 10 and type number */ }
