@@ -201,3 +201,10 @@ const ageDiv = 20 / '2'; {/** return 10 and type number */ }
  * false
  **/
 
+
+/**======================= Equality Operators: == vs. === */
+10 == 10; {/** return true */ }
+10 == '10'; {/** return true */ }
+
+10 === '10'; {/** return false */ }
+10 === 10; {/** return true */ }
