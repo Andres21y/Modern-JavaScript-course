@@ -186,3 +186,18 @@ const agePlus = 'I am ' + 32 + 'years old'; {/** return string and type string *
 const ageMinus = '20' - 10 - '5'; {/** return 5 and type number */ }
 const ageMulty = '5' * '2'; {/** return  10 and type number */ }
 const ageDiv = 20 / '2'; {/** return 10 and type number */ }
+
+
+/**======================Truthy and Falsy Values====================== */
+
+{/** There are 5 falsy values and false */ }
+
+/**
+ * 0
+ * ''
+ * undefined
+ * null
+ * NaN
+ * false
+ **/
+
